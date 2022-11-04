@@ -8,8 +8,11 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      white: "#ffffff",
+      white: "#dfe3e8",
       black: "#141414",
+    },
+    fontFamily: {
+      sans: ["Manrope", "Segoe UI", "Helvetica Neue", "sans-serif"],
     },
     extend: {
       fontFamily: {

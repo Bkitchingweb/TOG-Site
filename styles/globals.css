@@ -10,4 +10,16 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Manrope";
+  src: url("../public/fonts/Manrope-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
