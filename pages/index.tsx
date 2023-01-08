@@ -51,7 +51,7 @@ export default function Home() {
         <div className="pb-8 mx-4 sm:mx-0">
           <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase">Discography</h1>
         </div>
-        <article className="flex flex-col justify-between gap-10 bg-[#fff] py-8 px-4 lg:flex-row lg:flex-nowrap">
+        <article className="flex flex-col justify-between gap-10 bg-[#fff] py-8 px-4 md:px-8 lg:flex-row lg:flex-nowrap">
           <div className="lg:max-w-md">
             <Image src={coldArtwork} alt="COLD artwork" />
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
             ></iframe>
           </div>
         </article>
-        <article className="flex flex-col justify-between gap-10 border-t border-t-white py-8 px-4  lg:flex-row-reverse lg:flex-nowrap">
+        <article className="flex flex-col justify-between gap-10 border-t border-t-white py-8 px-4 md:px-8 lg:flex-row-reverse lg:flex-nowrap">
           <div className="lg:max-w-md">
             <Image src={reignArtwork} alt="Reign artwork" />
           </div>
@@ -91,9 +91,9 @@ export default function Home() {
 
       <section className="container mx-auto max-sm:px-0">
         <div className="pt-10 md:pt-20 pb-8 mx-0 bg-[#fff]">
-          <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase lg:text-right text-black px-4">Press</h1>
+          <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase lg:text-right text-black px-4 md:px-8">Press</h1>
         </div>
-        <div className="flex flex-col justify-between gap-10 bg-[#fff] py-8 px-4 lg:flex-row lg:flex-nowrap items-start relative">
+        <div className="flex flex-col justify-between gap-10 bg-[#fff] py-8 px-4 md:px-8 lg:flex-row lg:flex-nowrap items-start relative">
           <div className="lg:sticky lg:top-8 max-w-md">
             <Image src={press1} alt="Reign artwork" className="pr-10"/>
             <Image src={press2} alt="Reign artwork" className="pl-10 -translate-y-[50px]"/>
@@ -127,7 +127,7 @@ export default function Home() {
         <div className="pb-8 mx-4 sm:mx-0">
           <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase">Featured Shows</h1>
         </div>
-        <article className="flex flex-col justify-between gap-10 border-t border-t-white py-8 px-4  lg:flex-row-reverse lg:flex-nowrap lg:items-start">
+        <article className="flex flex-col justify-between gap-10 border-t border-t-white py-8 px-4 md:px-8 lg:flex-row-reverse lg:flex-nowrap lg:items-start">
           <div className="hidden lg:block lg:max-w-md">
             <Image src={towerLogo} alt="Reign artwork" className="max-w-[200px] opacity-10 brightness-[1000]" />
           </div>

@@ -8,9 +8,9 @@ export default function Footer() {
   return (
     <footer id="contact" className="container mx-auto max-sm:px-0">
         <div className="pt-20 pb-8 sm:mx-0 bg-[#fff]">
-          <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase text-black px-4">Contact</h1>
+          <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase text-black px-4 md:px-8">Contact</h1>
         </div>
-        <div className="flex flex-col justify-between gap-10 bg-[#fff] px-4 lg:flex-row lg:flex-nowrap items-start relative text-black pb-20">
+        <div className="flex flex-col justify-start gap-10 bg-[#fff] px-4 md:px-8 lg:flex-row lg:flex-nowrap items-start relative text-black pb-20">
           <a href="mailto:tribeofghostsuk@gmail.com" className="flex items-center font-black">
             <Image src={emailIcon} alt="email Icon" className="mr-2"/>
             tribeofghostsuk@gmail.com
