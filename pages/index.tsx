@@ -24,13 +24,13 @@ export default function Home() {
       </Head>
 
       
-      <section className="py-10 md:py-20">
+      <section className="pt-10 pb-20 md:py-20 overflow-hidden">
         <div className="container mx-auto grid lg:grid-cols-2 gap-8">
-          <h1 className="text-lg sm:text-3xl font-black lg:text-4xl uppercase lg:max-w-[10ch]">dystopian music for a totalitarian world</h1>
+          <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase lg:max-w-[10ch]">dystopian music for a totalitarian world</h1>
           <p className="lg:px-4">Tribe Of Ghosts are an industrial/post-metal four piece based in Brighton, UK. The band's current artistic vision came to fruition at the beginning of 2022 by combining electronic soundscapes, eclectic extreme metal influences and pop vocals with haunting and devastating effects- a brutal, dystopian soundtrack inspired by fiction such as ‘I Have No Mouth And I Must Scream’, ‘1984’, ‘The Handmaid's Tale’ and ‘Fahrenheit 451’.</p>
         </div>
-        <div className="w-screen overflow-hidden">
-          <div className="container mx-auto flex md:grid md:grid-cols-2 gap-8 mt-8 max-md:px-0 max-md:w-max overflow-x-auto relative">
+        <div className="w-screen overflow-auto">
+          <div className="container mx-auto flex md:grid md:grid-cols-2 gap-8 mt-8 max-md:px-0 max-md:w-max relative">
             <div className="w-[80vw] md:w-full min-h-[400px] relative">
               <Image src={grid1} alt="Reign artwork" fill className="object-cover"/>
             </div>
@@ -49,7 +49,7 @@ export default function Home() {
 
       <section className="container mx-auto max-sm:px-0 pb-10 md:pb-20">
         <div className="pb-8 mx-4 sm:mx-0">
-          <h1 className="text-lg sm:text-3xl font-black lg:text-4xl uppercase">Discography</h1>
+          <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase">Discography</h1>
         </div>
         <article className="flex flex-col justify-between gap-10 bg-[#fff] py-8 px-4 lg:flex-row lg:flex-nowrap">
           <div className="lg:max-w-md">
@@ -91,7 +91,7 @@ export default function Home() {
 
       <section className="container mx-auto max-sm:px-0">
         <div className="pt-10 md:pt-20 pb-8 mx-0 bg-[#fff]">
-          <h1 className="text-lg sm:text-3xl font-black lg:text-4xl uppercase lg:text-right text-black px-4">Press</h1>
+          <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase lg:text-right text-black px-4">Press</h1>
         </div>
         <div className="flex flex-col justify-between gap-10 bg-[#fff] py-8 px-4 lg:flex-row lg:flex-nowrap items-start relative">
           <div className="lg:sticky lg:top-8 max-w-md">
@@ -123,9 +123,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto max-sm:px-0 py-10 lg:py-20">
+      <section className="container mx-auto max-sm:px-0 pt-10 pb-20 lg:py-20">
         <div className="pb-8 mx-4 sm:mx-0">
-          <h1 className="text-lg sm:text-3xl font-black lg:text-4xl uppercase">Featured Shows</h1>
+          <h1 className="text-2xl sm:text-3xl font-black lg:text-4xl uppercase">Featured Shows</h1>
         </div>
         <article className="flex flex-col justify-between gap-10 border-t border-t-white py-8 px-4  lg:flex-row-reverse lg:flex-nowrap lg:items-start">
           <div className="hidden lg:block lg:max-w-md">
@@ -135,19 +135,19 @@ export default function Home() {
             <div className="relative mt-10">
               <div className="absolute left-0 top-2 w-[4px] rounded h-[calc(100%-1.3em)] bg-white opacity-50"></div>
               <div className="ml-6">
-                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:top-1 before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-white">June 2022</span>
+                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-white">June 2022</span>
                 <p className="mb-4">Winners of Metal 2 the Masses Brighton Final</p>
               </div>
               <div className="ml-6">
-                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:top-1 before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-white">August 2022</span>
+                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-white">August 2022</span>
                 <p className="mb-4">Bloodstock Openair 2022</p>
               </div>
               <div className="ml-6">
-                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:top-1 before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-white">September 2022</span>
+                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-white">September 2022</span>
                 <p className="mb-4">Headline Show + DROWND - The Hope & Ruin, Brighton</p>
               </div>
               <div className="ml-6">
-                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:top-1 before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-white">November 2022</span>
+                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-white">November 2022</span>
                 <p className="">MACHINE FEST, The Black Prince, Northampton</p>
                 <p className="mb-4">Headline Show - Six Six METAL Fest, Six Six Bar, Cambridge</p>
               </div>
@@ -158,23 +158,23 @@ export default function Home() {
             <div className="relative">
               <div className="absolute left-0 top-2 w-[4px] rounded h-[calc(100%-1.3em)] bg-transparent border border-1 opacity-50"></div>
               <div className="ml-6">
-                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:top-1 before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">11 Februry 2023</span>
+                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">11 Februry 2023</span>
                 <p className="mb-4">Headline Show - The Green Door Store, Brighton</p>
               </div>
               <div className="ml-6">
-                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:top-1 before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">17 Februry 2023</span>
+                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">17 Februry 2023</span>
                 <p className="mb-4">Headline Show - Club 85, Hitchin</p>
               </div>
               <div className="ml-6">
-                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:top-1 before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">28 April 2023</span>
+                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">28 April 2023</span>
                 <p className="mb-4">The Night Before UPRISING, Firebug, Leicester</p>
               </div>
               <div className="ml-6">
-                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:top-1 before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">10 August 2023</span>
+                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">10 August 2023</span>
                 <p className="mb-4">Bloodstock Openair 2023 - Sophie Lancaster Stage</p>
               </div>
               <div className="ml-6">
-                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:top-1 before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">MORE SHOWS TBA</span>
+                <span className="mb-2 inline-block text-blue text-md tracking-[0.2em] font-bold uppercase leading-none relative before:absolute before:-left-[1.875rem] before:block before:w-4 before:h-4 before:rounded-full before:bg-black before:border before:border-white">MORE SHOWS TBA</span>
               </div>
             </div>
             
