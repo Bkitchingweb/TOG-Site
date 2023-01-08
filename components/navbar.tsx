@@ -8,13 +8,7 @@ export default function Navbar() {
           Tribe of Ghosts
         </Link>
 
-        <nav className="font-heading text-white lg:ml-auto">
-          <Link href="/music" className="ml-4 text-white">
-            Music
-          </Link>
-          <Link href="/" className="ml-4 text-white">
-            Press
-          </Link>
+        <nav className="font-heading text-white ml-auto">
           <a
             href="https://tribeofghosts.bandcamp.com/merch"
             target="_blank"
@@ -23,7 +17,7 @@ export default function Navbar() {
           >
             Merch
           </a>
-          <Link href="/" className="ml-4 text-white">
+          <Link href="/#contact" className="ml-4 text-white">
             Contact
           </Link>
         </nav>
